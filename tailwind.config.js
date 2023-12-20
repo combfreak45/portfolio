@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        rubik: ["Rubik", 'sans-serif'],
+      },
+      backgroundImage:{
+        'home': "url('../public/bg-home.jpg')"
+      }
+    },
   },
   plugins: [],
 };
