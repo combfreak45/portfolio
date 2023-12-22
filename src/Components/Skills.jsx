@@ -5,7 +5,7 @@ import Carousel from './Carousel'
 
 
 let skills = [
-  "A","B","C","D","E","F","G",
+  "Tailwind","JavaScript","ReactJs","NextJs","NodeJs","ExpressJs","MangoDB","AdobeIllustrator","AdobePhotoshop","C++","Java","Python","C","SQL","Android"
 ]
 
 
@@ -13,21 +13,21 @@ let skills = [
 
 const Skills = () => {
   return (
-    <div className="h-screen relative px-20">
+    <div className="h-screen relative ">
       <img
         src={main1}
         alt="sdcs"
-        className=" h-[25rem] w-[24rem] absolute z-1 right-[12rem] bottom-[4rem]"
+        className=" h-[30rem] w-[30rem] absolute z-1 right-[5rem] bottom-0"
       />
-      <img
+      {/* <img
         src={bill}
         alt="fsdf"
         className="z-1 h-[12rem] w-[12rem] absolute right-[7.5rem]"
-      />
-      <div className="absolute z-2 right-[10rem] top-[6rem] text-4xl font-bold opacity-80 hover:scale-125 cursor-pointer ">
+      /> */}
+      <div className="absolute z-2 text-[11rem] left-0 font-bold rotate-90 bottom-[7rem]">
         SKILLS
       </div>
-      <div className='absolute top-[10rem] left-[20rem]'>
+      <div className='absolute bottom-5 left-[24rem]'>
         <Carousel skills = {skills}/>
       </div>
     </div>

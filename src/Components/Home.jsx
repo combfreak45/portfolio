@@ -3,20 +3,16 @@ import main from "../assets/1.png";
 import bag from '../assets/2.png'
 import { TypeAnimation } from 'react-type-animation';
 import BouncingBall from './BouncingBall';
+import home from '../../public/home.png'
 const Home = () => {
   return (
       <div className=" h-screen relative pt-20 px-20">
         <img
-          src={main}
+          src={home}
           alt="sdcs"
-          className=" ml-[15rem] h-[25rem] w-[24rem]"
+          className=" h-[30rem] w-[30rem] top-3 right-[5rem] absolute z-10"
         />
-        <img
-          src={bag}
-          alt="scdd"
-          className="h-[7rem] w-[7rem] absolute bottom-[6rem] left-[18rem] z-8"
-        />
-        <div className="w-[20rem] h-[20rem]  absolute  top-[8rem]  right-[21rem] z-10 p-10 center bg-[#343434]     rounded-2xl  text-white text-xl shadow-lg shadow-black">
+        <div className="w-[20rem] h-[20rem]  absolute bottom-10 z-10 p-10 center bg-[#343434]     rounded-2xl  text-white text-xl shadow-lg shadow-black">
           <h1 className="text-4xl  font-extrabold pb-2 font-rubik-500">
             ARJIT KEDIA
           </h1>
@@ -231,6 +227,8 @@ const Home = () => {
         {/* <div className='absolute z-5 right-1 top-1 '>
         <BouncingBall />
       </div> */}
+      <div className='text-[8rem] font-bold bottom-0 absolute right-2'>DESIGNER</div>
+      <div className='text-[8rem] font-bold top-0 absolute left-10'>DEVELOPER</div>
       </div>
   );
 }
