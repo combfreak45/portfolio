@@ -40,7 +40,7 @@ const EmailForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col w-[25rem] min-h-[5rem] max-h-[18rem] absolute top-[16rem] left-[20rem] rounded rounded-2xl gap-2"
+      className="flex flex-col w-[20rem] left-10 lg:w-[25rem] min-h-[5rem] max-h-[18rem] absolute bottom-[4rem] lg:top-[16rem] lg:left-[20rem] rounded rounded-2xl gap-2"
     >
       <input
         className="bg-black text-white rounded rounded-3xl h-[3rem] p-4"
@@ -64,7 +64,7 @@ const EmailForm = () => {
         onChange={(e) => setMessage(e.target.value)}
       ></textarea>
       <button type="submit"
-       className="bg-black text-white w-[10rem] h-[4rem] rounded rounded-[3rem] ml-[6rem] hover:scale-125">Send Email</button>
+       className="bg-black text-white w-[10rem] h-[4rem] rounded rounded-[3rem] ml-[4rem] lg:ml-[6rem] hover:scale-125">Send Email</button>
     </form>
   );
 };

@@ -7,8 +7,8 @@ export default {
         rubik: ["Rubik", 'sans-serif'],
       },
       backgroundImage:{
-        'home': "url('../public/cool-background.png')"
-      }
+        'home': "url('./cool-background.png')"
+      },
     },
   },
   plugins: [],

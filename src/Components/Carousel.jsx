@@ -32,7 +32,7 @@ const Carousel = ({skills}) => {
 
 
   return (
-    <div className="overflow-hidden relative bg- h-[20rem] w-[20rem] bg-[#343434]     rounded-2xl  text-white text-xl shadow-lg shadow-black">
+    <div className="overflow-hidden relative  h-[20rem] w-[20rem] bg-[#343434]     rounded-2xl  text-white text-xl shadow-lg shadow-black">
       <div
         className={`flex transition ease-out duration-40`}
         style={{

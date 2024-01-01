@@ -1,14 +1,14 @@
 import React from "react";
 import EmailForm from "./EmailForm";
-
+import contact from '../resource/contacts.png'
 const Contact = () => {
   return (
     <div className="h-screen relative ">
-      <div className="font-bold text-[8rem] absolute top-[5rem] left-[8rem] ">
+      <div className="font-bold text-[5em] text-center lg:text-[8rem] absolute top-[5rem] lg:left-[5rem] ">
         CONTACT ME
       </div>
-      <div className="h-[35rem] w-[35rem] absolute bottom-2 right-3 ">
-        <img src="../../public/contacts.png" alt="scs" />
+      <div className="top-[10rem] lg:h-[35rem] lg:w-[35rem] absolute lg:top-0 lg:right-0 ">
+        <img src={contact}alt="scs" />
       </div>
       <div>
         <EmailForm/>

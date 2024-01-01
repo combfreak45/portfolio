@@ -1,6 +1,5 @@
 import React from 'react'
-import main1 from '../../public/skills.png'
-import bill from '../../public/skill_billboard.png'
+import main1 from '../resource/skills.png'
 import Carousel from './Carousel'
 
 
@@ -17,17 +16,17 @@ const Skills = () => {
       <img
         src={main1}
         alt="sdcs"
-        className=" h-[30rem] w-[30rem] absolute z-1 right-[5rem] bottom-0"
+        className=" h-[20rem] w-[20rem] left-[3rem] lg:h-[30rem] lg:w-[30rem] absolute z-1 lg:left-[45rem] lg:bottom-0"
       />
       {/* <img
         src={bill}
         alt="fsdf"
         className="z-1 h-[12rem] w-[12rem] absolute right-[7.5rem]"
       /> */}
-      <div className="absolute z-2 text-[11rem] left-0 font-bold rotate-90 bottom-[7rem]">
+      <div className="absolute z-2 text-[5rem] left-20 bottom-5 lg:text-[11rem] lg:left-0 font-bold lg:rotate-90 lg:bottom-[7rem]">
         SKILLS
       </div>
-      <div className='absolute bottom-5 left-[24rem]'>
+      <div className='absolute bottom-[15rem] right-[3rem] lg:bottom-5 lg:left-[24rem]'>
         <Carousel skills = {skills}/>
       </div>
     </div>
